@@ -1,4 +1,5 @@
-// Test programm
+// Test programm 1
+
 #include <stdio.h>
 #include "hello.h"
 #define MAX 30
