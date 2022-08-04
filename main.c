@@ -2,12 +2,13 @@
 #include <stdio.h>
 #include "hello.h"
 #define MAX 30
+#define NAME_ARG 1
 
 int main(int argc, char *argv[])
 {
 	if (argc == 2) 
 	{
-		say_hello(argv[1]);	
+		say_hello(argv[NAME_ARG]);	
 	}
 	else
 	{
