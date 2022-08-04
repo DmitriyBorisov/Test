@@ -1,4 +1,5 @@
 #include <stdio.h>
+#define MAX 20
 
 int main(int argc, char *argv[])
 {
@@ -8,7 +9,10 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-		printf("Hello world!\n");
+		char name[MAX];
+		puts("Input your name: ");
+		gets(name);
+		printf("Hello %s!\n", name);
 	}
 	return 0;
 }
