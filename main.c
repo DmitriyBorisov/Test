@@ -1,3 +1,4 @@
+// Test programm
 #include <stdio.h>
 #define MAX 30
 
