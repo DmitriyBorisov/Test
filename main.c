@@ -1,5 +1,6 @@
 // Test programm
 #include <stdio.h>
+#include "hello.h"
 #define MAX 30
 
 int main(int argc, char *argv[])
