@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define MAX 20
+#define MAX 30
 
 int main(int argc, char *argv[])
 {
@@ -11,8 +11,10 @@ int main(int argc, char *argv[])
 	{
 		char name[MAX];
 		puts("Input your name: ");
-		gets(name);
-		printf("Hello %s!\n", name);
+		if(fgets(name, MAX, stdin) != NULL)
+			printf("Hello %s!\n", name);
+		else
+			puts("Error! Can't read your name");
 	}
 	return 0;
 }
