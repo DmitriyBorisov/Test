@@ -11,6 +11,7 @@
 
 int main(int argc, char *argv[])
 {
+	//	TODO: Do something with this magic number
 	if (argc == 2) 
 	{
 		say_hello(argv[NAME_ARG]);	
