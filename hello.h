@@ -1,6 +1,6 @@
-#if !defined(HELLO_H)
+#ifndef HELLO_H
 #define HELLO_H
 
 void say_hello(char *name);
 
-#endif
+#endif /* HELLO_H */
