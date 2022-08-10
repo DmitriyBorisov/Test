@@ -5,12 +5,14 @@
  */
 #include <stdio.h>
 #include <string.h>
+#include <locale.h>
 #include "hello.h"
 #define MAX 30
 #define NAME_ARG 1
 
 int main(int argc, char *argv[])
 {
+	setlocale(LC_ALL, "ru_RU.UTF-8");
 	//	TODO: Do something with this magic number
 	if (argc == 2) 
 	{
