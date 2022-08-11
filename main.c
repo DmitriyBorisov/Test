@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
 		puts("Input your name: ");
 		if(fgets(name, MAX, stdin) != NULL)
 		{
-			int ln = strlen(name) - 1;
+			int ln = (int)strlen(name) - 1;
 			if (*name && name[ln] == '\n') name[ln] = '\0';
 			say_hello(name);
 		}
